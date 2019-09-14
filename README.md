@@ -60,7 +60,7 @@ There will also be a very small group of users interested in having the psycholo
 * As an English speaking individual client I want to have a button that switches the language to English so I can understand the information presented on the webiste
 
 
-
+----------------------------------------------------------------------------------------------------------------------------
 
 
 
