@@ -24,6 +24,13 @@
     
 }
 
+#servicesCont {
+    max-width: 90%;
+}
+#services {
+    margin: 0;
+}
+
 .jumbotron {
     height: 90%;
 }
