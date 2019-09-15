@@ -1,9 +1,29 @@
+
+
+
+/*----changing size so the logo is in the same line as the menu on mobile----*/
+
 .navbar-brand {
     width: 50%;
     height: 50%;
 }
 
+.navbar {
+    background-color: white;
+}
+
 .flagImg {
     height: 20px;
     width: 30px;
+}
+
+#home {
+    margin: 5rem 0 0 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.jumbotron {
+    height: 100%;
 }

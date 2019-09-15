@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="assets/style.css" type="text/css">
     <title>PSYCHOTEST</title>
 </head>
@@ -14,22 +15,22 @@
 <body>
     <!--NAVIGATION BAR-->
     <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <a href="#home" class="navbar-brand">
                 <img class="img-fluid" src="assets/images/logo.jpg" alt="Logo">
             </a>
             <a href="index.html" aria-label="Switch to Polish">
                 <img class="flagImg" id="poland" src="assets/images/poland-flag.png" alt="Polish Flag">
             </a>
-            <a href="en-index.html"  aria-label="Switch to English">
-                    <img class="flagImg" id="uk" src="assets/images/uk-flag.png" alt="UK flag">
-                </a>
+            <a href="en-index.html" aria-label="Switch to English">
+                <img class="flagImg" id="uk" src="assets/images/uk-flag.png" alt="UK flag">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburgerMenu"
                 aria-controls="#hamburgerMenu" aria-expanded="false" aria-label="Expandable hamburger menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="hamburgerMenu">
-                <ul id ="navlist" class="navbar-nav ml-5 ml-md-0">
+                <ul id="navlist" class="navbar-nav ml-5 ml-md-0">
                     <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">O firmie</a></li>
                     <li class="nav-item"><a href="#services" class="nav-link">Oferta</a></li>
@@ -42,7 +43,28 @@
             </div>
         </nav>
     </header>
-    <section class="container" id="home"></section>
+    <!--HOMEPAGE SECTION WITH JUMBOTRON-->
+    <section class="container" id="home">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4"><strong>Psychotesty bez stresu</strong></h1>
+                <p class="lead">dla kierowców, operatorów maszyn i więcej</p>
+                <a class="btn btn-success btn-lg" href="#contact" role="button">Zarejestruj się</a>
+                <a id="reviews"
+                    href="https://www.google.com/search?q=google+psychotest+gdynia&oq=google+psychotest+gdynia&aqs=chrome..69i57j69i64.6877j1j7&sourceid=chrome&ie=UTF-8#lrd=0x46fda72632c82649:0x22748dfc66bb9769,1,,," target="_blank">
+                    <div class="container" id="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span id="reviews">Sprawdź co mówią o nas nasi klienci</span>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
     <section class="container" id="about"></section>
     <section class="container" id="services"></section>
     <section class="container" id="whatToExpect"></section>

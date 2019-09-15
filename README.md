@@ -21,7 +21,10 @@ Additionally, psychological assessment is mandadory for people working with othe
 
 The rationale for psychological assessments for drivers is derived from Traffic Pyschology, a discipline of psychology that focusses on the links between cogntitive/psychological abilities/qualities and road behaviours. More on the subject can be found on [this Wikipedia page] (https://en.wikipedia.org/wiki/Traffic_psychology#Psychological_assessment,_counseling,_and_rehabilitation). 
 
+### Differences between wireframes and the website
 
+* Wireframes were designed as a multi-page website, however after the discussion with my mentor this was changed to a single scrollable website 
+* The language buttons were moved from the content of the page to the navigation bar for better user experience on the scrollable website
  
 Alt-UX
 ------
@@ -134,7 +137,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from ...
-
+https://pixabay.com/ - flag images
 ### Acknowledgements
 
 - I received inspiration for this project from X
