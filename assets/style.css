@@ -3,6 +3,7 @@
     height: 50%;
 }
 
-#dupa {
-    background-color: black;
+.flagImg {
+    height: 20px;
+    width: 30px;
 }
