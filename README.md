@@ -25,6 +25,7 @@ The rationale for psychological assessments for drivers is derived from Traffic 
 
 * Wireframes were designed as a multi-page website, however after the discussion with my mentor this was changed to a single scrollable website 
 * The language buttons were moved from the content of the page to the navigation bar for better user experience on the scrollable website
+* Review link added to the homepage, not only the footer, since with the scroll design this would be only visible to the user once they have reached to the bottom of the page
  
 Alt-UX
 ------
