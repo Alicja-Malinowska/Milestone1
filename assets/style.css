@@ -1,6 +1,3 @@
-
-
-
 /*----changing size so the logo is in the same line as the menu on mobile----*/
 
 .navbar-brand {
@@ -8,6 +5,7 @@
     height: 50%;
 }
 
+/*-----------------------------------------------------------------------------*/
 .navbar {
     background-color: white;
 }
@@ -21,12 +19,13 @@
     margin: 5rem 0 0 0;
     padding: 0;
     max-width: 100%;
-    
+
 }
 
 #servicesCont {
     max-width: 90%;
 }
+
 #services {
     margin: 0;
 }
@@ -34,3 +33,38 @@
 .jumbotron {
     height: 90%;
 }
+/*--------------------flipcards for desktop---------------*/
+@media (min-width: 1200px) {
+
+    .flipCard {
+        perspective: 1000px;
+    }
+
+    .flipCardRotate {
+        position: relative;
+        text-align: center;
+        transition: transform 0.7s;
+        transform-style: preserve-3d;
+    }
+
+    .flipCard:hover .flipCardRotate {
+        transform: rotateY(180deg);
+    }
+
+    .flipCardCover,
+    .flipCardContent {
+        backface-visibility: hidden;
+    }
+
+    .flipCardContent {
+        position: relative;
+        transform: rotateY(180deg);
+    }
+
+    .flipCardCover {
+        position: absolute;
+        top: 75px;
+    }
+}
+
+/*------------------------------------------------------------*/
