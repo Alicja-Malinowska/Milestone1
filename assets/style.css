@@ -36,15 +36,11 @@
 /*--------------------flipcards for desktop---------------*/
 @media (min-width: 1200px) {
 
-    .flipCard {
-        perspective: 1000px;
-    }
-
     .flipCardRotate {
         position: relative;
-        text-align: center;
         transition: transform 0.7s;
         transform-style: preserve-3d;
+        perspective: 1000px;
     }
 
     .flipCard:hover .flipCardRotate {
@@ -64,7 +60,11 @@
     .flipCardCover {
         position: absolute;
         top: 75px;
+        text-align: center;
     }
 }
 
 /*------------------------------------------------------------*/
+#services .btn {
+    padding: 3px 3px;
+}
