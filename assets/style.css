@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 /*----changing size so the logo is in the same line as the menu on mobile----*/
 
 .navbar-brand {
@@ -8,6 +12,12 @@
 /*-----------------------------------------------------------------------------*/
 .navbar {
     background-color: white;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar > * {
+    margin: 0 3px;
 }
 
 .flagImg {
@@ -59,6 +69,21 @@ form {
     padding: 0;
     width: 20px;
 }
+/*--------------------navbar desktop---------------*/
+@media (min-width: 768px) { 
+    .navbar-brand {
+        width: 25%;
+        height: 50%;
+    }
+
+    .navbar > * {
+        margin: 0 20px;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+ }
 /*--------------------flipcards for desktop---------------*/
 @media (min-width: 1200px) {
 
