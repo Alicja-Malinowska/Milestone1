@@ -15,6 +15,7 @@
     width: 30px;
 }
 
+
 #home {
     margin: 5rem 0 0 0;
     padding: 0;
@@ -39,6 +40,24 @@
 
 form {
     width: 100%;
+}
+
+#fcols div {
+    padding: 0 5px; 
+}
+
+#fAddress, #freviews {
+    font-size: 9px;
+}
+
+
+#reviewsBox, #fstars {
+    text-align: center;
+}
+
+#icons > div {
+    padding: 0;
+    width: 20px;
 }
 /*--------------------flipcards for desktop---------------*/
 @media (min-width: 1200px) {
