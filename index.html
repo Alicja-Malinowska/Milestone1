@@ -15,33 +15,35 @@
 <body>
     <!--NAVIGATION BAR-->
     <header id="header">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-            <a href="#home" class="navbar-brand">
-                <img class="img-fluid" src="assets/images/logo.jpg" alt="Logo">
-            </a>
-            <a href="index.html" aria-label="Switch to Polish">
-                <img class="flagImg" id="poland" src="assets/images/poland-flag.png" alt="Polish Flag">
-            </a>
-            <a href="en-index.html" aria-label="Switch to English">
-                <img class="flagImg" id="uk" src="assets/images/uk-flag.png" alt="UK flag">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburgerMenu"
-                aria-controls="#hamburgerMenu" aria-expanded="false" aria-label="Expandable hamburger menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="hamburgerMenu">
-                <ul id="navlist" class="navbar-nav ml-5 ml-md-0">
-                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">O firmie</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link">Oferta</a></li>
-                    <li class="nav-item"><a href="#whatToExpect" class="nav-link">Jak wygląda badanie</a></li>
-                    <li class="nav-item"><a href="#surgeriesCompanies" class="nav-link">Dla przychodni i firm</a>
-                    </li>
-                    <li class="nav-item"><a href="#pricing" class="nav-link">Cennik</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                <a href="#home" class="navbar-brand">
+                    <img class="img-fluid" src="assets/images/logo.jpg" alt="Logo">
+                </a>
+                <a href="index.html" aria-label="Switch to Polish">
+                    <img class="flagImg" id="poland" src="assets/images/poland-flag.png" alt="Polish Flag">
+                </a>
+                <a href="en-index.html" aria-label="Switch to English">
+                    <img class="flagImg" id="uk" src="assets/images/uk-flag.png" alt="UK flag">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburgerMenu"
+                    aria-controls="#hamburgerMenu" aria-expanded="false" aria-label="Expandable hamburger menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="hamburgerMenu">
+                    <ul id="navlist" class="navbar-nav ml-5 ml-md-0">
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">O firmie</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Oferta</a></li>
+                        <li class="nav-item"><a href="#whatToExpect" class="nav-link">Jak wygląda badanie</a></li>
+                        <li class="nav-item"><a href="#surgeriesCompanies" class="nav-link">Dla przychodni i firm</a>
+                        </li>
+                        <li class="nav-item"><a href="#pricing" class="nav-link">Cennik</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <!--HOMEPAGE SECTION WITH JUMBOTRON-->
     <section class="container" id="home">
@@ -107,7 +109,7 @@
         </div>
     </section>
     <!--ABOUT SECTION-->
-    <section id="about">
+    <section class="container" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -161,7 +163,7 @@
         </div>
     </section>
     <!--SERVICES SECTION-->
-    <section id="services">
+    <section class="container" id="services">
         <div class="container" id="servicesCont">
             <div class="row">
                 <div class="col-12">
@@ -217,10 +219,10 @@
                             </div>
                             <div class="row">
                                 <div class="col-6">
-                                    <a class="btn btn-success btn-md" href="#contact" role="button">Zarejestruj się</a>
+                                    <a class="btn btn-success" href="#contact" role="button">Zarejestruj się</a>
                                 </div>
                                 <div class="col-6">
-                                    <a class="btn btn-success btn-md" href="#whatToExpect" role="button">Więcej o
+                                    <a class="btn btn-success" href="#whatToExpect" role="button">Więcej o
                                         badaniu</a>
                                 </div>
                             </div>
@@ -668,53 +670,137 @@
                 <div class="col-12">Atrakcyjna oferta cenowa dla firm i przychodni w przypadku większej ilości badanych!
                 </div>
                 <div class="col-12">
-                        <a class="btn btn-success btn-md" href="#contact" role="button">Skontaktuj się</a>
-                    </div>
+                    <a class="btn btn-success btn-md" href="#contact" role="button">Skontaktuj się</a>
+                </div>
             </div>
             <div class="row">
                 <!--Expandable boxes with more information about the prices-->
                 <div class="col-8">
-                    <div class="priceType" id="ordinanceTransp"><h4><strong>Obowiązkowe - transport</strong></h4></div>
-                    <a href="#ordinanceTranspDesc" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="ordinanceTranspDesc"><i class="fas fa-2x fa-angle-down" aria-hidden="true"></i></a>
-                    <div class="collapse" id="ordinanceTranspDesc"><p>Cena ustawowa - zgodnie z <em>ROZPORZĄDZENIEM MINISTRA ZDROWIA z dnia 8 lipca 2014r. w sprawie badań psychologicznych</p></em>
-                    <p>Dotyczy wszystki kierowców podlegających pod Ustawę o transporcie drogowym oraz/lub Ustawę o kierujących pojazdami</p>
-                <ul>
-                    <li>Kierowcy profesjonalni</li>
-                    <li>Kierowcy pojazdów uprzywilejowanych</li>
-                    <li>Kierowcy z zatrzymanym prawem jazdy</li>
-                </ul></div>
+                    <div class="priceType" id="ordinanceTransp">
+                        <h4><strong>Obowiązkowe - transport</strong></h4>
+                    </div>
+                    <a href="#ordinanceTranspDesc" data-toggle="collapse" role="button" aria-expanded="false"
+                        aria-controls="ordinanceTranspDesc"><i class="fas fa-2x fa-angle-down"
+                            aria-hidden="true"></i></a>
+                    <div class="collapse" id="ordinanceTranspDesc">
+                        <p>Cena ustawowa - zgodnie z <em>ROZPORZĄDZENIEM MINISTRA ZDROWIA z dnia 8 lipca 2014r. w
+                                sprawie badań psychologicznych</p></em>
+                        <p>Dotyczy wszystki kierowców podlegających pod Ustawę o transporcie drogowym oraz/lub Ustawę o
+                            kierujących pojazdami</p>
+                        <ul>
+                            <li>Kierowcy profesjonalni</li>
+                            <li>Kierowcy pojazdów uprzywilejowanych</li>
+                            <li>Kierowcy z zatrzymanym prawem jazdy</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-4"><h4>150 zł</h4></div>
+                <div class="col-4">
+                    <h4>150 zł</h4>
+                </div>
                 <div class="col-8">
-                        <div class="priceType" id="ordinanceOccMed"><h4><strong>Obowiązkowe - medycyna pracy</strong></h4></div>
-                        <a href="#ordinanceOccMedDesc" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="ordinanceOccMedDesc"><i class="fas fa-2x fa-angle-down" aria-hidden="true"></i></a>
-                        <div class="collapse" id="ordinanceOccMedDesc"><p>Badani, których dotyczy <em>Ustawa o służbie medycyny pracy.</em></p>
-                        <p>Badania dla osób z kategorii <em>Psychologia pracy</em>, skierowanych przez lekarza medycyny pracy.</p>
+                    <div class="priceType" id="ordinanceOccMed">
+                        <h4><strong>Obowiązkowe - medycyna pracy</strong></h4>
                     </div>
+                    <a href="#ordinanceOccMedDesc" data-toggle="collapse" role="button" aria-expanded="false"
+                        aria-controls="ordinanceOccMedDesc"><i class="fas fa-2x fa-angle-down"
+                            aria-hidden="true"></i></a>
+                    <div class="collapse" id="ordinanceOccMedDesc">
+                        <p>Badani, których dotyczy <em>Ustawa o służbie medycyny pracy.</em></p>
+                        <p>Badania dla osób z kategorii <em>Psychologia pracy</em>, skierowanych przez lekarza medycyny
+                            pracy.</p>
                     </div>
-                    <div class="col-4"><h4>80 zł</h4></div>
-                    <div class="col-8">
-                            <div class="priceType" id="ordinanceFirearm"><h4><strong>Obowiązkowe - broń</strong></h4></div>
-                            <a href="#ordinanceFirearmDesc" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="ordinanceFirearmDesc"><i class="fas fa-2x fa-angle-down" aria-hidden="true"></i></a>
-                            <div class="collapse" id="ordinanceFirearmDesc"><p>Badani, których dotyczy <em>Ustawa o broni i amunicji z dn. 21 maja 1999 roku.</em></p>
-                            <p>Badania dla osób posiadających broń lub ubiegających się o jej posiadanie.</p>
-                        </div>
-                        </div>
-                        <div class="col-4"><h4>200 zł</h4></div>
-                        <div class="col-8">
-                                <div class="priceType" id="psyDiagnosis"><h4><strong>Diagnoza psychologiczna</strong></h4></div>
-                                <a href="#psyDiagnosisDesc" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="psyDiagnosisDesc"><i class="fas fa-2x fa-angle-down" aria-hidden="true"></i></a>
-                                <div class="collapse" id="psyDiagnosisDesc"><p>Cena zależy od typu i ilości wybranych testów.</p>
-                                    <p>Oferta dla osób, które chcą poznać bliżej siebie, swoje zdolności, cechy oraz swoje mocne strony i te, które wymagają dodatkowej uwagi. Samopoznanie to pierwszy krok do lepszego radzenia sobie w życiu zawodowym, komunikacji z innymi osobami oraz satysfakcjonujących relacji interpersonalnych. Dysponujemy testami licencjonowanymi przez Polskie Towarzystwo Psychologiczne, co zapewnia ich wysoką trafność i rzetelność. </em></p>
-                            </div>
-                            </div>
-                            <div class="col-4"><h4>Set individually</h4></div>
+                </div>
+                <div class="col-4">
+                    <h4>80 zł</h4>
+                </div>
+                <div class="col-8">
+                    <div class="priceType" id="ordinanceFirearm">
+                        <h4><strong>Obowiązkowe - broń</strong></h4>
+                    </div>
+                    <a href="#ordinanceFirearmDesc" data-toggle="collapse" role="button" aria-expanded="false"
+                        aria-controls="ordinanceFirearmDesc"><i class="fas fa-2x fa-angle-down"
+                            aria-hidden="true"></i></a>
+                    <div class="collapse" id="ordinanceFirearmDesc">
+                        <p>Badani, których dotyczy <em>Ustawa o broni i amunicji z dn. 21 maja 1999 roku.</em></p>
+                        <p>Badania dla osób posiadających broń lub ubiegających się o jej posiadanie.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h4>200 zł</h4>
+                </div>
+                <div class="col-8">
+                    <div class="priceType" id="psyDiagnosis">
+                        <h4><strong>Diagnoza psychologiczna</strong></h4>
+                    </div>
+                    <a href="#psyDiagnosisDesc" data-toggle="collapse" role="button" aria-expanded="false"
+                        aria-controls="psyDiagnosisDesc"><i class="fas fa-2x fa-angle-down" aria-hidden="true"></i></a>
+                    <div class="collapse" id="psyDiagnosisDesc">
+                        <p>Cena zależy od typu i ilości wybranych testów.</p>
+                        <p>Oferta dla osób, które chcą poznać bliżej siebie, swoje zdolności, cechy oraz swoje mocne
+                            strony i te, które wymagają dodatkowej uwagi. Samopoznanie to pierwszy krok do lepszego
+                            radzenia sobie w życiu zawodowym, komunikacji z innymi osobami oraz satysfakcjonujących
+                            relacji interpersonalnych. Dysponujemy testami licencjonowanymi przez Polskie Towarzystwo
+                            Psychologiczne, co zapewnia ich wysoką trafność i rzetelność. </em></p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h4>Ustalana indywidualnie</h4>
                 </div>
             </div>
-            
+        </div>
+
         </div>
     </section>
-    <section class="container" id="contact"></section>
+    <!--CONTACT SECTION-->
+    <section class="container" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2><strong>Kontakt</strong></h2>
+                </div>
+            </div>
+            <div class="row alert alert-success" role="alert">
+                <div class="col-12">W razie jakichkolwiek pytań lub w celu rejestracji na badanie, serdecznie zapraszamy
+                    do kontaktu telefonicznego lub mailowego!</div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <address>PSYCHOTEST Pomorskie Centrum Badań Psychotechnicznych<br>Alicja Malinowska<br>Ul.
+                        Warszawska 1-3 81-314 Gdynia<br>Tel. 731 70 76 70 biuro@psychotest-gdynia.pl
+                    </address>
+                </div>
+                <div class="col-12 col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2315.797930591898!2d18.526242215777664!3d54.51942498024159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda727cd4fee85%3A0x78db372e45ccd470!2sWarszawska%201%2C%2081-314%20Gdynia%2C%20Polska!5e0!3m2!1spl!2sie!4v1569064263947!5m2!1spl!2sie"
+                        frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+                <div class="row">
+                    <form>
+                        <fieldset>
+                            <legend>Formularz kontaktowy</legend>
+                            <div class="row">
+                            <div class="form-group col-12 col-md-6">
+                                <label for="name" class="form-label">*Imię</label>
+                                <input type="text" class="form-control" id="name" placeholder="Twoje imię"
+                                    required>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <label for="email" class="form-label">*Adres email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Twój adres email"
+                                    required>
+                            </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="email" class="form-label">*Wiadomość:</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Twoja wiadomość" required></textarea>
+                                </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

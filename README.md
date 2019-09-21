@@ -27,6 +27,7 @@ The rationale for psychological assessments for drivers is derived from Traffic 
 * The language buttons were moved from the content of the page to the navigation bar for better user experience on the scrollable website
 * Review link added to the homepage, not only the footer, since with the scroll design this would be only visible to the user once they have reached to the bottom of the page
 * Pricing section - expandable boxes also applied on the desktop, not only mobile/tablet, since the description text is quite long and it would make page overloaded with text, which could negatively influence UX
+* Contact section - map situated below the address rather than next to it in mobile view - makes it more readible 
  
 Alt-UX
 ------

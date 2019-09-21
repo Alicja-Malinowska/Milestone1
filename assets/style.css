@@ -29,9 +29,16 @@
 #services {
     margin: 0;
 }
+#services .btn {
+    padding: 3px 3px;
+}
 
 .jumbotron {
     height: 90%;
+}
+
+form {
+    width: 100%;
 }
 /*--------------------flipcards for desktop---------------*/
 @media (min-width: 1200px) {
@@ -65,6 +72,3 @@
 }
 
 /*------------------------------------------------------------*/
-#services .btn {
-    padding: 3px 3px;
-}
