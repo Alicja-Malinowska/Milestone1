@@ -14,8 +14,18 @@ body {
 
 h2 {
     font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    padding: 3vh;
 }
 
+h3 {
+    padding: 3vh 0;
+    font-size: 1.25rem;
+}
+
+.wrapper {
+    padding: 10vh 15px 5vh;
+}
 
 /*----NAVBAR----*/
 
@@ -61,10 +71,45 @@ h2 {
     margin: 5vh 0;
 }
 
+#whyUs .col-2 {
+    text-align: center;
+    padding: 4vh 0 4vh 4vw;
+}
+
+#whyUs .col-10 {
+    padding: 0 0 0 7vh;
+}
+
+#whyUs h3 {
+    text-align: center;
+}
+
+/*----ABOUT----*/
+
+#company {
+    padding-bottom: 5vh;
+}
+#interiorImg {
+    padding-bottom: 7vh;
+}
+
+/*----SERVICES----*/
+
 #servicesCont {
     max-width: 90%;
 }
 
+.cards > div {
+    margin-bottom: 3vh;
+}
+
+.flipCardRotate div {
+    margin-bottom: 1vh;
+}
+
+.flipCardRotate .col-10 {
+    padding: 0 0 0 20px;
+}
 #services {
     margin: 0;
 }
@@ -73,6 +118,11 @@ h2 {
     padding: 3px 3px;
 }
 
+/*----WHAT TO EXPECT----*/
+
+#before, #during {
+    margin-bottom: 40px;
+}
 
 #download>div {
     padding: 0;
