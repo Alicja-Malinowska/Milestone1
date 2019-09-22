@@ -1,27 +1,18 @@
+/*----GENERAL STYLES----*/
+
 * {
     box-sizing: border-box;
-  }
+}
 
 html {
     scroll-behavior: smooth;
-  }
-
-/*----changing size so the logo is in the same line as the menu on mobile----*/
-
-.navbar-brand {
-    width: 50%;
 }
 
-/*-----------------------------------------------------------------------------*/
+/*----NAVBAR----*/
+
 .navbar {
     background-color: white;
-    justify-content: center;
-    padding: 0;
-    width: 100vw;
-}
 
-.navbar > * {
-    margin: 0 3px;
 }
 
 .flagImg {
@@ -29,12 +20,36 @@ html {
     width: 30px;
 }
 
+/*----changing size so the logo is in the same line as the menu on mobile----*/
 
+.navbar-brand {
+    width: 50%;
+}
+
+
+
+/*----HOMEPAGE----*/
 #home {
-    margin: 5rem 0 0 0;
+    margin: 10vh 0 0 0;
     padding: 0;
     max-width: 100vw;
 
+}
+#hero {
+    padding-bottom: 5vh;
+    text-align: center;
+    margin-bottom: 0;
+    height: 85vh;
+    background-image: url(/assets/images/hero.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color:rgba(248, 248, 215, 0.7);
+    
+
+}
+
+#heroCont > * {
+    margin: 5vh 0;
 }
 
 #servicesCont {
@@ -44,51 +59,59 @@ html {
 #services {
     margin: 0;
 }
+
 #services .btn {
     padding: 3px 3px;
 }
 
-.jumbotron {
-    height: 90%;
-}
 
-#download > div {
+#download>div {
     padding: 0;
 }
 
 
 #fcols div {
-    padding: 0 5px; 
+    padding: 0 5px;
 }
 
-#fAddress, #freviews {
+#fAddress,
+#freviews {
     font-size: 9px;
 }
 
 
-#reviewsBox, #fstars {
+#reviewsBox,
+#fstars {
     text-align: center;
 }
 
-#icons > div {
+#icons>div {
     padding: 0;
     width: 20px;
 }
+
 /*--------------------navbar desktop---------------*/
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .navbar-brand {
         width: 25%;
-        height: 50%;
+        margin: 0 10vw 0 0;
     }
 
-
-    .navbar {
-        justify-content: center;
+    .nav-item {
+        padding: 0 .2vw;
     }
- }
-/*--------------------flipcards for desktop---------------*/
+}
+
 @media (min-width: 1200px) {
 
+    .navbar > * {
+        padding: 0 10px;
+    }
+
+    
+
+
+/*--------------------flipcards for desktop---------------*/
     .flipCardRotate {
         position: relative;
         transition: transform 0.7s;
@@ -115,6 +138,8 @@ html {
         top: 75px;
         text-align: center;
     }
+
 }
+
 
 /*------------------------------------------------------------*/
