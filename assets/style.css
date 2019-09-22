@@ -23,8 +23,16 @@ h3 {
     font-size: 1.25rem;
 }
 
+h4 {
+    padding: 3vh 0;
+}
+
 .wrapper {
-    padding: 10vh 15px 5vh;
+    padding: 10vh 15px 2vh;
+}
+
+.jumbotron {
+    text-align: center;
 }
 
 /*----NAVBAR----*/
@@ -56,7 +64,6 @@ h3 {
 }
 #hero {
     padding-bottom: 5vh;
-    text-align: center;
     margin-bottom: 0;
     height: 83vh;
     background-image: url(/assets/images/hero.jpg);
@@ -120,14 +127,38 @@ h3 {
 
 /*----WHAT TO EXPECT----*/
 
-#before, #during {
+#before, #during, #before  ul {
     margin-bottom: 40px;
 }
 
-#download>div {
-    padding: 0;
+
+#stages {
+    text-align: center;
+    margin-top: 30px;
 }
 
+#time {
+    font-size: .75rem;
+}
+
+#anxietyReduction {
+    margin: 40px 0;
+}
+
+#anxietyReduction > div {
+    margin-bottom: 20px;
+}
+
+/*----FOR GP SURGERIES AND COMPANIES----*/
+
+#download > div {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#files {
+    margin-top: 40px;
+}
 
 #fcols div {
     padding: 0 5px;
