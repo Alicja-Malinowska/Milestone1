@@ -171,20 +171,33 @@ h4 {
     font-size: 1.25rem;
 }
 
-#fcols div {
-    padding: 0 5px;
+
+#categories #textPrice {
+    font-size: .75rem;
 }
 
-#fAddress,
-#freviews {
-    font-size: 9px;
-}
+/*----CONTACT----*/
 
-
-#reviewsBox,
-#fstars {
+#location > .col-12 {
+    padding-bottom: 25px;
     text-align: center;
 }
+
+iframe {
+    border: none;
+}
+ #submit {
+     text-align: center;
+ }
+
+/*----FOOTER----*/
+
+
+#fAddress {
+    font-size: 9px;
+    padding-top: 10px;
+}
+
 
 #icons>div {
     padding: 0;
@@ -201,6 +214,11 @@ h4 {
     .nav-item {
         padding: 0 .2vw;
     }
+}
+
+#reviewsBox,
+#fstars {
+    text-align: center;
 }
 
 @media (min-width: 1200px) {
