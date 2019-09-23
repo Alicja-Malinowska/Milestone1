@@ -98,6 +98,7 @@ h4 {
 
 /*----ABOUT----*/
 
+
 #company {
     padding-bottom: 5vh;
 }
@@ -128,6 +129,18 @@ h4 {
 
 #services .btn {
     padding: 3px 3px;
+}
+
+.sButton {
+    text-align: center;
+}
+
+.bookBtn {
+    padding-right: 1vw;
+}
+
+.moreBtn {
+    padding-left: .5vw;
 }
 
 /*----WHAT TO EXPECT----*/
@@ -203,9 +216,11 @@ iframe {
     padding: 0;
     width: 20px;
 }
+/*----MEDIA----*/
 
-/*--------------------navbar desktop---------------*/
+
 @media (min-width: 768px) {
+/*--------------------navbar for tablets and bigger---------------*/
     .navbar-brand {
         width: 25%;
         margin: 0 10vw 0 0;
@@ -214,11 +229,14 @@ iframe {
     .nav-item {
         padding: 0 .2vw;
     }
-}
+
 
 #reviewsBox,
 #fstars {
     text-align: center;
+}
+
+
 }
 
 @media (min-width: 1200px) {
@@ -227,6 +245,7 @@ iframe {
         padding: 0 10px;
     }
 
+   
     
 
 
