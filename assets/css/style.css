@@ -71,7 +71,7 @@ h4 {
     padding-bottom: 5vh;
     margin-bottom: 0;
     height: 83vh;
-    background-image: url(/assets/images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     background-color:rgba(248, 248, 215, 0.7);
