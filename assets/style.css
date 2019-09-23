@@ -31,8 +31,13 @@ h4 {
     padding: 10vh 15px 2vh;
 }
 
-.jumbotron {
+.jumbotron, .alert {
     text-align: center;
+}
+
+.btn {
+    margin-top: 10px;
+    
 }
 
 /*----NAVBAR----*/
@@ -158,6 +163,12 @@ h4 {
 
 #files {
     margin-top: 40px;
+}
+
+/*----PRICING----*/
+
+#categories h4 {
+    font-size: 1.25rem;
 }
 
 #fcols div {
