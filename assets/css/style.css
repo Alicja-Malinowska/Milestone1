@@ -27,9 +27,9 @@ h4 {
     padding: 3vh 0;
 }
 
-.wrapper {
+/*.wrapper {
     padding: 10vh 15px 2vh;
-}
+}*/
 
 .jumbotron, .alert {
     text-align: center;
@@ -38,6 +38,10 @@ h4 {
 .btn {
     margin-top: 10px;
     
+}
+
+section > .container {
+    padding-top: 10vh;
 }
 
 /*----NAVBAR----*/
@@ -115,34 +119,60 @@ h4 {
 .cards > div {
     margin-bottom: 3vh;
 }
-
+/*
 .flipCardRotate div {
     margin-bottom: 1vh;
 }
 
-.flipCardRotate .col-10 {
-    padding: 0 0 0 20px;
-}
+
 #services {
     margin: 0;
 }
-
+*/
 #services .btn {
     padding: 3px 3px;
 }
 
 .sButton {
     text-align: center;
+    height: 66.36px;
+    
 }
 
 .bookBtn {
-    padding-right: 1vw;
+    /*padding-right: 1vw;*/
+    
 }
 
 .moreBtn {
     padding-left: .5vw;
+   
+
 }
 
+.flipCardRotate {
+    padding: 1em;
+    
+}
+
+.flipCardContent {
+    position: relative;
+    padding-bottom: 10vh;
+}
+
+.sButton {
+    position: absolute;
+    bottom: 1vh;
+}
+.moreBtn {
+    right: 0;
+}
+.flipCardContent .col-12 {
+    padding-bottom: 20px;
+}
+
+
+}
 /*----WHAT TO EXPECT----*/
 
 #before, #during, #before  ul {
@@ -236,8 +266,27 @@ iframe {
     text-align: center;
 }
 
+.flipCardRotate {
+    height: 97%;
+   
+}
+
+.flipCardCover {
+    height: 94px;
+    
+}
+
+.flipCardContent {
+    height: 400px;
+}
+
+.flipCardCover > h4 {
+    padding: .5vh 0;
+}
 
 }
+
+
 
 @media (min-width: 1200px) {
 
@@ -245,7 +294,7 @@ iframe {
         padding: 0 10px;
     }
 
-   
+    
     
 
 
@@ -277,7 +326,24 @@ iframe {
         text-align: center;
     }
 
+    .flipCardContent .col-10 {
+        padding-left: 30px;
+    }
+
+
+    .sButton {
+        position: static;
+        
 }
 
+.flipCardRotate {
+    height: 100%;
+   
+}
+
+.flipCardContent {
+    height: 230px;
+}
+}
 
 /*------------------------------------------------------------*/
