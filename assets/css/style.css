@@ -23,9 +23,9 @@ h3 {
     font-size: 1.25rem;
 }
 
-h4 {
+/*h4 {
     padding: 3vh 0;
-}
+}*/
 
 /*.wrapper {
     padding: 10vh 15px 2vh;
@@ -111,13 +111,30 @@ section > .container {
 }
 
 /*----SERVICES----*/
-
-#servicesCont {
+#services {
     max-width: 90%;
 }
+.flipCardRotate {
+    height: 100%;
+    padding: 5px;
+   
+}
+
+.cards h4, #services .btn {
+    margin: 0;
+    padding: 0;
+}
+
 
 .cards > div {
     margin-bottom: 3vh;
+}
+.flipCardContent {
+    padding: 0 15px;
+}
+.flipCardContent .col-12 {
+    padding: 0;
+    
 }
 /*
 .flipCardRotate div {
@@ -128,7 +145,7 @@ section > .container {
 #services {
     margin: 0;
 }
-*/
+
 #services .btn {
     padding: 3px 3px;
 }
@@ -143,7 +160,7 @@ section > .container {
     /*padding-right: 1vw;*/
     
 }
-
+/*
 .moreBtn {
     padding-left: .5vw;
    
@@ -166,10 +183,7 @@ section > .container {
 }
 .moreBtn {
     right: 0;
-}
-.flipCardContent .col-12 {
-    padding-bottom: 20px;
-}
+} */
 
 
 }
@@ -266,23 +280,19 @@ iframe {
     text-align: center;
 }
 
-.flipCardRotate {
-    height: 97%;
-   
-}
 
-.flipCardCover {
-    height: 94px;
-    
-}
 
+
+
+
+/*
 .flipCardContent {
     height: 400px;
 }
 
 .flipCardCover > h4 {
     padding: .5vh 0;
-}
+}*/
 
 }
 
@@ -306,7 +316,7 @@ iframe {
         perspective: 1000px;
     }
 
-    .flipCard:hover .flipCardRotate {
+    .flipCardRotate:hover {
         transform: rotateY(180deg);
     }
 
@@ -323,9 +333,11 @@ iframe {
     .flipCardCover {
         position: absolute;
         top: 75px;
-        text-align: center;
+        /*text-align: center;*/
+        /*height: 100%;
+        width: 100%;*/
     }
-
+/*
     .flipCardContent .col-10 {
         padding-left: 30px;
     }
@@ -343,7 +355,7 @@ iframe {
 
 .flipCardContent {
     height: 230px;
-}
+}*/
 }
 
 /*------------------------------------------------------------*/
