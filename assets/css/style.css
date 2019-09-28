@@ -132,46 +132,11 @@ section {
     padding: 0 15px;
     height: 80%;
 }
-.flipCardContent .col-12 {
-    padding: 0;
-    
-}
-/*
-.flipCardRotate div {
-    margin-bottom: 1vh;
-}
 
-
-#services {
-    margin: 0;
-}
-*/
-/*#services .btn {
+#services .btn {
     padding: 3px 3px;
+    min-height: 56px;
 }
-/*
-.sButton {
-    text-align: center;
-    height: 66.36px;
-    
-}
-
-.bookBtn {
-    /*padding-right: 1vw;
-    
-}
-*/
-/*.moreBtn {
-    padding: .5px;
-   
-
-}*/
-/*
-.flipCardRotate {
-    padding: 1em;
-    
-}
-*/
 
 .sButton {
     position: absolute;
@@ -182,13 +147,26 @@ section {
 
 .moreBtn {
     right: 3vw;
+    padding-left: 30px;
 } 
+
+.bookBtn {
+    padding-right: 30px;
+}
 
 .flipCard {
     min-height: 400px;
 }
 
+.flipCardContent > div:nth-last-child(3) {
+    padding-bottom: 70px;
+}
 
+.flipCardCover {
+    text-align: center;
+    width: 100%;
+    padding: 10px 5px;
+}
 
 /*----WHAT TO EXPECT----*/
 
@@ -283,7 +261,10 @@ iframe {
     text-align: center;
 }
 
-
+#services .btn {
+   
+    min-height: auto;
+}
 
 
 
@@ -331,6 +312,11 @@ iframe {
     .flipCardContent {
         position: relative;
         transform: rotateY(180deg);
+        padding-top: 30px;
+    }
+
+    .flipCardContent > div {
+        padding-bottom: 15px;
     }
 
     .flipCardCover {
@@ -343,6 +329,10 @@ iframe {
 
     .flipCard {
         min-height: 250px;
+    }
+
+    .flipCardContent > div:nth-last-child(3) {
+        padding-bottom: 5px;
     }
 /*
     .flipCardContent .col-10 {
