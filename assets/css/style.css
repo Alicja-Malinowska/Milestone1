@@ -35,9 +35,9 @@ h3 {
     border: none;
 
 }
-
-section {
-    padding-top: 10vh;
+/*----makes the top of the section be on top when send to via button/nav link----*/
+section, #whyUs, #assessmentAnxiety {
+    padding-top: 11vh;
     margin-bottom: 5vh;
 }
 
@@ -53,11 +53,19 @@ text-decoration: none;
 .stars:hover {
     color: #cccc00;
 }
+
+.down {
+    color: #414656;
+}
+
+.down:hover {
+    color: #a8adbd;
+}
 /*----NAVBAR----*/
 
 .navbar {
     background-color: white;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 5px 8px #888888;
     font-weight: 900;
 
 
@@ -107,6 +115,10 @@ h1, .lead {
 
 #heroCont>* {
     margin: 5vh 0;
+}
+
+#toWhyUs {
+    padding: 40px 0;
 }
 
 #whyUs .col-2 {
@@ -214,6 +226,10 @@ h1, .lead {
 
 #time {
     font-size: .75rem;
+}
+
+#toAnxiety {
+    text-align: center;
 }
 
 #assessmentAnxiety {
