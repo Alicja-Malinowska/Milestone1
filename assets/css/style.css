@@ -10,6 +10,9 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
+    background: rgb(134,151,194);
+background: linear-gradient(90deg, rgba(134,151,194,1) 0%, rgba(227,240,255,1) 34%, rgba(255,255,255,1) 65%, rgba(250,249,164,1) 100%);
+   
 }
 
 h2 {
@@ -58,14 +61,12 @@ text-decoration: none;
     color: #414656;
 }
 
-.down:hover {
-    color: #a8adbd;
-}
+
 /*----NAVBAR----*/
 
 .navbar {
     background-color: white;
-    box-shadow: 5px 5px 8px #888888;
+    box-shadow: 0 5px 8px #888888;
     font-weight: 900;
 
 
@@ -120,7 +121,11 @@ h1, .lead {
 #toWhyUs {
     padding: 40px 0;
 }
-
+#whyUs {
+    background-color: #52648C;
+    height: 100vh;
+    color: #f7eef7;
+}
 #whyUs .col-2 {
     text-align: center;
     padding: 4vh 0 4vh 4vw;
@@ -132,6 +137,7 @@ h1, .lead {
 
 #whyUs h3 {
     text-align: center;
+    margin-bottom: 7vw;
 }
 
 /*----ABOUT----*/
@@ -395,7 +401,10 @@ iframe {
     .navbar>* {
         padding: 0 10px;
     }
-
+ 
+    .down:hover {
+        color: #a8adbd;
+    }
 
     /*--------------------flipcards for desktop---------------*/
     .flipCardRotate {

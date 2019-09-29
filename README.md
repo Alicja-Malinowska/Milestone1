@@ -143,6 +143,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 - The photos used in this site were obtained from ...
 https://pixabay.com/ - flag images, truck hero image, 
+https://cssgradient.io/ - background gradient created using this website
 ### Acknowledgements
 
 - I received inspiration for this project from X
