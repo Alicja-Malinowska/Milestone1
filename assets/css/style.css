@@ -28,6 +28,10 @@ h3 {
     font-weight: 900;
 }
 
+h4 {
+    font-weight: 900;
+}
+
 .jumbotron,
 .alert {
     text-align: center;
@@ -50,9 +54,17 @@ section, #whyUs, #assessmentAnxiety {
 text-decoration: none;
 }
 
+i {
+    text-shadow: 2px 2px 4px #4d4d4d;
+}
+
+ #services i, #whatToExpect i{
+    color: #414656;
+ }
+
+
 .stars {
     color: #ffff00;
-    text-shadow: 2px 2px 4px #4d4d4d;
 }
 
 .stars:hover {
@@ -198,6 +210,7 @@ h1 {
 .flipCardContent {
     padding: 0 15px;
     height: 80%;
+    font-weight: 700;
 }
 
 .flipCardCover {
@@ -270,17 +283,66 @@ h1 {
 
 
 /*----WHAT TO EXPECT----*/
-
+#whatToExpect {
+    background-color:rgba(247, 238, 247, .7);
+}
 #before,
 #during,
 #before ul {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
+}
+#before .row {
+    padding: 5px;
+}
+#before .col-10, #stages > div {
+    border-radius: .25rem;
+    text-align: center;
+    font-weight: 900;
+    color: #f9f5fc;
+    
+}
+/*----setting colors for ticked divs/ stages----*/
+#refer {
+    background-color: #666896;
+}
+
+#glasses {
+    background-color: #7C6B9D;
+}
+
+#identification {
+    background-color: #936DA1;
+}
+
+#licence {
+    background-color: #AB6EA2;
+}
+
+#tests {
+    background-color: #2088B1
+}
+
+#appliances {
+    background-color: #00ACBD;
+}
+
+#interview {
+    background-color: #19CDAC;
+}
+
+#result {
+    background-color: rgb(96, 199, 87);
 }
 
 #stages {
     text-align: center;
     margin-top: 30px;
 }
+
+#stages i {
+    padding: 5px;
+}
+
 
 #time {
     font-size: .75rem;
@@ -295,14 +357,31 @@ h1 {
 }
 #anxietyReduction {
     margin: 40px 0;
+    font-weight: 800;
 }
 
 #anxietyReduction>div {
     margin-bottom: 20px;
 }
 
+#register {
+    background-color: rgba(215, 163, 26, .6);
+    
+}
+
+#register div {
+    padding: 5px;
+    
+}
+
+
 
 /*----FOR GP SURGERIES AND COMPANIES----*/
+
+#surgeriesCompanies {
+    background-color: rgba(166, 67, 90, .8);
+    color: #f7eef7;
+}
 
 #download>div {
     padding: 0;
@@ -353,6 +432,11 @@ iframe {
     width: 20px;
 }
 
+footer {
+    background-color: #ffffff;
+    box-shadow: 0 -5px 8px #888888;
+}
+
 /*----MEDIA----*/
 
 
@@ -386,16 +470,19 @@ iframe {
         min-height: auto;
     }
 /*----styles for what to expect----*/
-#before li {
-    padding-bottom: 20px;
-}
+
 
 #during > p {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+#before .row {
+    padding: 10px;
 }
 
 #time {
     font-size: 1rem;
+    font-weight: 900;
 }
 
  /*----styles for surgeries/companies---*/
@@ -411,8 +498,13 @@ iframe {
      font-size: 1.4rem;
  }
 
+ #download {
+     padding-top: 50px;
+ }
  /*----styles for pricing---*/
-
+#pricing {
+    background-color: rgba(230, 244, 241, .7);
+}
 
 #categories #textPrice {
     font-size: 1rem;
@@ -436,6 +528,7 @@ iframe {
     height: 100%;
 }
  /*----styles for footer---*/
+
     #reviewsBox,
     #fstars {
         text-align: center;

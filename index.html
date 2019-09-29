@@ -451,7 +451,7 @@
                     <h2><strong>Jak wygląda badanie</strong></h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-between">
                 <!--Before the test subsection-->
                 <div class="col-12 col-md-6" id="before">
                     <h3><strong>Przed badaniem</strong></h3>
@@ -463,34 +463,34 @@
                     </ul>
                     <div class="row">
                         <div class="col-2"><i class="fas fa-2x fa-check" aria-hidden="true"></i></div>
-                        <div class="col-10"><span>Skierowanie na badanie</span></div>
+                        <div class="col-10" id="refer"><span>Skierowanie na badanie</span></div>
                     </div>
                     <div class="row">
                         <div class="col-2"><i class="fas fa-2x fa-check" aria-hidden="true"></i></div>
-                        <div class="col-10"><span>Okulary/soczewki jeśli je nosisz</span></div>
+                        <div class="col-10" id="glasses"><span>Okulary/soczewki jeśli je nosisz</span></div>
                     </div>
                     <div class="row">
                         <div class="col-2"><i class="fas fa-2x fa-check" aria-hidden="true"></i></div>
-                        <div class="col-10"><span>Dowód osobisty</span></div>
+                        <div class="col-10" id="identification"><span>Dowód osobisty</span></div>
                     </div>
                     <div class="row">
                         <div class="col-2"><i class="fas fa-2x fa-check" aria-hidden="true"></i></div>
-                        <div class="col-10"><span>Prawo jazdy (w przypadku kierowców)</span></div>
+                        <div class="col-10" id="licence"><span>Prawo jazdy (w przypadku kierowców)</span></div>
                     </div>
                 </div>
                 <!--During the test subsection-->
-                <div class="col-12 col-md-6" id="during">
-                    <h3><strong>Przebieg badania</strong></h3>
+                <div class="col-12 col-md-5" id="during">
+                    <h3>Przebieg badania</h3>
                     <p>Badania różnią się między sobą w zależności od zawodu osoby badanej i/lub celu badania. Można
                         jednak wyróżnić etapy badania, które są wspólne dla wszystkich.</p>
                     <div id="stages">
-                        <div>Ankieta i testy papierowe</div>
+                        <div id="tests">Ankieta i testy papierowe</div>
                         <div><i class="fas fa-2x fa-level-down-alt" aria-hidden="true"></i></div>
-                        <div>Badania aparaturowe</div>
+                        <div id="appliances">Badania aparaturowe</div>
                         <div><i class="fas fa-2x fa-level-down-alt" aria-hidden="true"></i></div>
-                        <div>Wywiad psychologiczny ukierunkowany</div>
+                        <div id="interview">Wywiad psychologiczny ukierunkowany</div>
                         <div><i class="fas fa-2x fa-level-down-alt" aria-hidden="true"></i></div>
-                        <div>Wystawienie orzeczenia psychologicznego i omówienie wyników</div>
+                        <div id="result">Wystawienie orzeczenia psychologicznego i omówienie wyników</div>
                     </div>
                 </div>
             </div>
@@ -542,12 +542,12 @@
             </div>
         </div>
         <!--Jumbotron with the call for action-->
-        <div class="jumbotron container">
-            <div class="row">
-                <div class="col-12">
+        <div class="jumbotron container" id="register">
+            <div>
+                <div>
                     <h4>Umów się na badanie – <a id="phone" href="tel:+48731-707-670">tel. 731 70 76 70</a> lub zadaj pytanie poprzez formularz kontaktowy</h4>
                 </div>
-                <div class="col-12">
+                <div>
                     <button type="button" class="btn btn-success btn-lg"  data-toggle="modal" data-target="#formModal">
                         Zarejestruj się
                       </button>
@@ -763,7 +763,7 @@
         </div>
     </section>
     <!--FOOTER-->
-    <footer>
+    <footer class="border-top">
         <div class="container">
             <div class="row align-items-center justify-content-between" id="fcols">
                 <div class="col-5 col-md-3">
