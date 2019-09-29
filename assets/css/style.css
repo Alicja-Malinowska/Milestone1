@@ -190,7 +190,9 @@ h1 {
 
 .flipCardRotate {
     height: 100%;
-    padding: 5px;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(248, 248, 215, 0.9);
 }
 
 .flipCardContent {
@@ -213,11 +215,35 @@ h1 {
 .flipCardContent>div:nth-last-child(3) {
     padding-bottom: 70px;
 }
+/*----images for the cards----*/
+#professional > .flipCardRotate {
+    background-image: url(../images/truck.jpg);
+    
+}
 
+#special > .flipCardRotate {
+    background-image: url(../images/ambulance.jpg);
+    
+}
 
-#professional .flipCardRotate {
-    background-image: url(..images/truck.jpg);
-    background-size: cover;
+#revokedLicence > .flipCardRotate {
+    background-image: url(../images/handlebar.jpg);
+    
+}
+
+#occupationalMed > .flipCardRotate {
+    background-image: url(../images/forklift.jpg);
+    
+}
+
+#firearm > .flipCardRotate {
+    background-image: url(../images/agent.jpg);
+    
+}
+
+#diagnosis > .flipCardRotate {
+    background-image: url(../images/personality.jpg);
+    
 }
 
 /*----styling buttons----*/
@@ -435,13 +461,15 @@ iframe {
     /*--------------------flipcards for desktop---------------*/
     .flipCardRotate {
         position: relative;
-        transition: transform 0.7s;
+        transition: transform 0.7s, background-color 1s;
         transform-style: preserve-3d;
         perspective: 1000px;
+        background-color: rgba(248, 248, 215, 0.2);
     }
 
     .flipCardRotate:hover {
         transform: rotateY(180deg);
+        background-color: rgba(248, 248, 215, 0.9);
     }
 
     .flipCardCover,
@@ -475,6 +503,13 @@ iframe {
     .sButton {
         position: static;
 
+    }
+
+    .flipCardRotate h4 {
+        background-color: rgba(255, 255, 255, .5);
+        width: 100%;
+        text-align: center
+        
     }
 }
 
