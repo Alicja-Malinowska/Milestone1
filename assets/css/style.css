@@ -1,7 +1,8 @@
 /*----GENERAL STYLES----*/
 
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html {
@@ -11,6 +12,8 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     background: rgb(134,151,194);
+background: -webkit-gradient(linear, left top, right top, from(rgba(134,151,194,1)), color-stop(34%, rgba(227,240,255,1)), color-stop(65%, rgba(255,255,255,1)), to(rgba(250,249,164,1)));
+background: -o-linear-gradient(left, rgba(134,151,194,1) 0%, rgba(227,240,255,1) 34%, rgba(255,255,255,1) 65%, rgba(250,249,164,1) 100%);
 background: linear-gradient(90deg, rgba(134,151,194,1) 0%, rgba(227,240,255,1) 34%, rgba(255,255,255,1) 65%, rgba(250,249,164,1) 100%);
 color: #333333;
 }
@@ -39,7 +42,8 @@ h4 {
 
 .btn {
     margin-top: 10px;
-    box-shadow: 0px 8px 15px #888888;
+    -webkit-box-shadow: 0px 8px 15px #888888;
+            box-shadow: 0px 8px 15px #888888;
     background-color:#228019;
     border: none;
 
@@ -80,7 +84,8 @@ i {
 
 .navbar {
     background-color: white;
-    box-shadow: 0 5px 8px #888888;
+    -webkit-box-shadow: 0 5px 8px #888888;
+            box-shadow: 0 5px 8px #888888;
     font-weight: 900;
 
 
@@ -433,7 +438,8 @@ iframe {
 
 footer {
     background-color: #ffffff;
-    box-shadow: 0 -5px 8px #888888;
+    -webkit-box-shadow: 0 -5px 8px #888888;
+            box-shadow: 0 -5px 8px #888888;
 }
 
 /*----MEDIA----*/
@@ -534,7 +540,9 @@ footer {
     }
 
     #reviewsBox {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 }
 
@@ -553,25 +561,34 @@ footer {
     /*--------------------flipcards for desktop---------------*/
     .flipCardRotate {
         position: relative;
+        -webkit-transition: background-color 1s, -webkit-transform 0.7s;
+        transition: background-color 1s, -webkit-transform 0.7s;
+        -o-transition: transform 0.7s, background-color 1s;
         transition: transform 0.7s, background-color 1s;
-        transform-style: preserve-3d;
-        perspective: 1000px;
+        transition: transform 0.7s, background-color 1s, -webkit-transform 0.7s;
+        -webkit-transform-style: preserve-3d;
+                transform-style: preserve-3d;
+        -webkit-perspective: 1000px;
+                perspective: 1000px;
         background-color: rgba(248, 248, 215, 0.2);
     }
 
     .flipCardRotate:hover {
-        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
         background-color: rgba(248, 248, 215, 0.9);
     }
 
     .flipCardCover,
     .flipCardContent {
-        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
     }
 
     .flipCardContent {
         position: relative;
-        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
         padding-top: 30px;
     }
 
