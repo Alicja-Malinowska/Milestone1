@@ -230,6 +230,13 @@ h1 {
     padding: 0;
 }
 
+/*----making the text not go below the icon plus giving some spacing----*/
+.flipCardContent i {
+    float: left;
+    padding-right: 5px;
+    width: 45px;
+}
+
 .flipCardContent>div:nth-last-child(3) {
     padding-bottom: 70px;
 }
@@ -596,9 +603,12 @@ footer {
         padding-bottom: 15px;
     }
 
+
     .flipCardCover {
         position: absolute;
         top: 75px;
+        /*the below added so the backface visibility works properly in Firefox*/
+        transform: rotateX(0deg)
     }
 
     .flipCard {
@@ -611,6 +621,7 @@ footer {
 
     .sButton {
         position: static;
+        padding-top: 10px;
 
     }
 
