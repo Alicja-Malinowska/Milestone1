@@ -204,7 +204,6 @@ h1 {
     min-height: 400px;
 }
 
-
 .flipCardRotate {
     height: 100%;
     background-size: cover;
@@ -295,6 +294,18 @@ h1 {
 }
 }
 
+/*---removing images from cards on Edge since it does not support background blend mode and the text becomes unreadable
+with the background photo---*/
+@supports (-ms-ime-align: auto) {
+    #diagnosis > .flipCardRotate,
+    #professional > .flipCardRotate,
+    #special > .flipCardRotate,
+    #revokedLicence > .flipCardRotate,
+    #occupationalMed > .flipCardRotate,
+    #firearm > .flipCardRotate {
+        background-image: none;
+    }
+}
 
 /*----WHAT TO EXPECT----*/
 #whatToExpect {
