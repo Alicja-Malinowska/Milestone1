@@ -241,7 +241,7 @@ h1 {
     padding-bottom: 70px;
 }
 /*----images for the cards----*/
-@supports not (-ms-high-contrast: none), min-resolution:.001dpcm {
+@supports not (-ms-high-contrast: none) {
 #professional > .flipCardRotate {
     background-image: url(../images/truck.jpg);
     
@@ -573,7 +573,7 @@ footer {
     }
 
     /*----this will not be applied on IE----*/
-    @supports not (-ms-high-contrast: none) {
+    @supports not (-ms-high-contrast: none){
         
      
     /*--------------------flipcards for desktop---------------*/
@@ -603,7 +603,6 @@ footer {
                 backface-visibility: hidden;
                 /*the below added so the backface visibility works properly in Firefox*/
         transform: rotateX(0deg);
-        -webkit-transform: rotateX(0deg);
     }
 
     .flipCardContent {
