@@ -241,7 +241,7 @@ h1 {
     padding-bottom: 70px;
 }
 /*----images for the cards----*/
-@supports not (-ms-high-contrast: none) {
+@supports not (-ms-high-contrast: none), min-resolution:.001dpcm {
 #professional > .flipCardRotate {
     background-image: url(../images/truck.jpg);
     
