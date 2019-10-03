@@ -603,6 +603,7 @@ footer {
                 backface-visibility: hidden;
                 /*the below added so the backface visibility works properly in Firefox*/
         transform: rotateX(0deg);
+        -webkit-transform: rotateX(0deg);
     }
 
     .flipCardContent {
