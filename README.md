@@ -91,11 +91,13 @@ All the features were added to enhance the UX and make using the website easy to
 *	An embedded Google map – shows the location of the centre and allows a user to look for directions directly from the website
 *	A contact form – gives a user a third option (aside from calling or emailing) to get in touch
 *	A Facebook icon button – send a user to the company’s FB page where they can see news/announcements
+* The landing page is English - this is because the page is created for educational purposes and most of the people using it (assessor, mentor, reviewing peers) are English speakers. In reality, the landing page would be in Polish as most of the users of the page would be Polish speakers.
 
 
 ### Features Left to Implement
 
 * Add a blog page where updates or new articles can be published (this will enhance SEO)
+* Add a feature that detects user's set language (EN or PL) and displays the page in this language (if not PL, shows in EN)
 
 ## Technologies Used
 
@@ -107,6 +109,7 @@ All the features were added to enhance the UX and make using the website easy to
 * [Autoprefixer](https://autoprefixer.github.io/) - used to add prefixes for the code to work on different browsers
 * [Visual Studio Code](https://code.visualstudio.com/) - an IDE used to write the code
 * [Git](https://git-scm.com/) - used for version control
+* [GitHub](https://github.com/) - as a remote repository and hosting service for the live version
 
 
 ## Testing
@@ -133,28 +136,26 @@ All the features were added to enhance the UX and make using the website easy to
 * When the email address/icon is clicked/touched a new email message opens (or suggested apps to open it with - dependant on the individual user settings)
 * When Facebook icon clicked/touched a new tab opens with the company's Facebook page.
 
+
 #### Browser support
 
 * The website was tested and works properly on: Chrome v77, Chrome v77 on Android, Opera v63
-* On Firefox there was an issue with the flipcards on desktop - the cover of the card would still be visible when flipped. This was solved using a solution from [Stack Overflow](https://stackoverflow.com/questions/9604982/backface-visibility-not-working-properly-in-firefox-works-in-safari).
+* On Firefox there was an issue with the flipcards on desktop - the cover of the card would still be visible when flipped. This was solved using a solution from [Stack Overflow](https://stackoverflow.com/questions/9604982/backface-visibility-not-working-properly-in-firefox-works-in-safari). After this fix the flipcards work properly on Firefox v69
+* On Edge there was an issue with the background-blend-mode which resulted in pictures on the flipcards not being 'dimmed' and text not being readable. To fix this I decided not to display the background pictures on the cards on Edge and I used the ides from the [fastcodefix](https://www.fastcodefix.com/fix-for-internet-explorer-and-edge-css-layout-problems/) website to do that. After this fix flipcard work properly on Microsoft Edge v44, but the images are not displayed. 
+* On IE the flipcards didn't work properly at all so I decided to keep them static as they are on tablet and mobile. To do this I applied the solution I found on [Stack Overflow](https://stackoverflow.com/questions/48412244/apply-css-to-all-browsers-except-ie-using-media-query/48422293). After this fix the cards work properly on Internet Explorer v11, although they are not animated in the desktop view, they also do not have background images in any view. 
+* The flipcards do not work properly on Safari and Chrome on Mac - the content doesn't show when the card is flipped. Although I tried to fix this bug I could not find a good solution. 
 
+#### Responsive design
+
+* The website was tested using Google Chrome Developer Tools to check how it looks like in case of different width and height by chooseing 'Responsive' option and resizing the window. Using Chrom Dev Tools, it was also tested how the website looks on: Galaxy S5, Pixel 2, Pixel 2XL, iPhone 5/6/7/8/X, iPad and iPad Pro. In all these views the website is responsive and shows content properly.
+* The website was also tested on the following devices: Samsung Galaxy A3, Asus laptop 15", Dell laptop 13.3", a 24" monitor. On all of this devices the website is responsive and shows content properly. 
+
+#### Accessibility
+
+* I downloaded an NVDA screen reader to check the accessibility for peope with impaired vision. As an unexperienced user I was unable to use the exact controls as everyday users do, however I managed to test how the screen reader behaves on the website on the basic level. Based on this I added additional aria-labels (there were some already existing) for the scroll down arrow buttons, expand arrow buttons in the pricing section and number and phone links. This was checked with English speaking reader on the English version. The Polish version was adjusted accordingly based on the changes to the English version. 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+* The contrast between the background colours and the text colours should be sufficient for people with impaired ability to see colours
 
 ## Deployment
 
