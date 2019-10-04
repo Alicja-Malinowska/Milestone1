@@ -1,5 +1,5 @@
 # Psychological testing centre for drivers - PSYCHOTEST
-======
+
 
 This is a website for a testing centre, based in Poland, that provides psychological assessments for drivers (mainly), as well as other professions. The purpose of the webiste is to inform potential clients about the services that are provided and to convince them to choose PSYCHOTEST over the competition. 
 
@@ -25,7 +25,6 @@ The rationale for psychological assessments for drivers is derived from Traffic 
 
  
 ## UX
-------
 
 The majority of the users will be individuals who are mandated to undergo a psychological assessment and submit psychological opinion of their fitness to drive a mechanical vehicle (or in some cases - fitness to carry a firearm). Therefore, the question they will be asking will not be 'IF' they should choose to use the services, but rather 'WHICH' place they should choose. 
 
@@ -143,12 +142,19 @@ All the features were added to enhance the UX and make using the website easy to
 * On Firefox there was an issue with the flipcards on desktop - the cover of the card would still be visible when flipped. This was solved using a solution from [Stack Overflow](https://stackoverflow.com/questions/9604982/backface-visibility-not-working-properly-in-firefox-works-in-safari). After this fix the flipcards work properly on Firefox v69
 * On Edge there was an issue with the background-blend-mode which resulted in pictures on the flipcards not being 'dimmed' and text not being readable. To fix this I decided not to display the background pictures on the cards on Edge and I used the ides from the [fastcodefix](https://www.fastcodefix.com/fix-for-internet-explorer-and-edge-css-layout-problems/) website to do that. After this fix flipcard work properly on Microsoft Edge v44, but the images are not displayed. 
 * On IE the flipcards didn't work properly at all so I decided to keep them static as they are on tablet and mobile. To do this I applied the solution I found on [Stack Overflow](https://stackoverflow.com/questions/48412244/apply-css-to-all-browsers-except-ie-using-media-query/48422293). After this fix the cards work properly on Internet Explorer v11, although they are not animated in the desktop view, they also do not have background images in any view. 
-* The flipcards do not work properly on Safari and Chrome on Mac - the content doesn't show when the card is flipped. Although I tried to fix this bug I could not find a good solution. 
+* The flipcards do not work properly on Safari and Chrome on Mac - the content doesn't show when the card is flipped. Although I tried to fix this bug I could not find a good solution. As I work in Windows environment I did not have proper resources to investigate this further.
 
 #### Responsive design
 
 * The website was tested using Google Chrome Developer Tools to check how it looks like in case of different width and height by chooseing 'Responsive' option and resizing the window. Using Chrom Dev Tools, it was also tested how the website looks on: Galaxy S5, Pixel 2, Pixel 2XL, iPhone 5/6/7/8/X, iPad and iPad Pro. In all these views the website is responsive and shows content properly.
 * The website was also tested on the following devices: Samsung Galaxy A3, Asus laptop 15", Dell laptop 13.3", a 24" monitor. On all of this devices the website is responsive and shows content properly. 
+* On mobiles and tablets the navbar collapses into a 'hamburger menu' and can be expanded to reveal the items by clicking/touching it, on desktop it contains the visisble list of all the items
+* The pictures in the 'About' section are situated below/above the text description on mobile, while on bigger screens they are next to it.
+* The cards in the 'Services' section are situated one under another for mobile view, for most of the tablets (medium size screens) they are displayed in rows of two, on bigger screens (bigger tablets and desktops) they show it 2 rows of 3 items. On desktop (very large screens) the cards become flipcards that have the cover with the category name and when hover over they flip and show the content.
+* The subsections in 'What to expect' section are aligned one under another on mobile and on bigger screens they are next to each other.
+* The files for download and their descriptions in the 'For GP surgries/companies' section are one under another on mobile view and to the left there is one big document icon, on bigger screens thy are next o wach other and on the left of each there is a document icon.
+* The map in the 'Contact' section is situated below the address on mobile view and on bigger screens it is on the right side of the address and is also bigger.
+* An additional 'reviews' item on the footer is hidden on the mobile view and appears on bigger screens.
 
 #### Accessibility
 
@@ -159,26 +165,23 @@ In this section, you need to convince the assessor that you have conducted enoug
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The website has been deployed using GitHub Pages. To do this I opened 'Settings' in my Milestone1 repository and and under the 'GitHub pages' section I chose my master branch to be the publishing source. By doing this I received a shareable link (which is available in the beginning of this document) to my published site. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+It is possible to clone this repository and run it locally. To do that type `git clone https://github.com/Alicja-Malinowska/Milestone1.git` in your terminal. 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+The text was entirely written by me, both in Polish and English.
+
+Psychotest was a real company that I used to run and it had a website built in WordPress. The website does not exist anymore and I do not have access to it either. I used texts in Polish that I had saved in word files when I had been preparing the content for the website. I changed some content and added some new content. I translated everything to English. The layout of the webiste is different than the WordPress website, although the sections are similar. I no longer have the access to the WordPress page and I do not have any images of the old website, I only rely on my memory of it and I was not attempting to recreate it in terms of layout. 
 
 ### Media
-- The photos used in this site were obtained from ...
-https://pixabay.com/ - flag images, truck hero image, cards images
-[Font Awesome](https://fontawesome.com/) - all the icons were taken 
+* The flag images, truck hero image and cards images come from [Pixabay](https://pixabay.com/)
+* The images from the 'About' section are mine
+* All the icons were taken from [Font Awesome](https://fontawesome.com/) 
+* The fonts were imported from [Google Fonts](https://fonts.google.com/)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+Thanks to my Mentor Simen Daehlin for suggesting to make it a one-page scrollable website and for giving me idea to display my contact form as a modal. 
