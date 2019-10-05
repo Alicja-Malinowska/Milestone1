@@ -110,6 +110,7 @@ All the features were added to enhance the UX and make using the website easy to
 * [Visual Studio Code](https://code.visualstudio.com/) - an IDE used to write the code
 * [Git](https://git-scm.com/) - used for version control
 * [GitHub](https://github.com/) - as a remote repository and hosting service for the live version
+* [Tiny JPG](https://tinyjpg.com/) - used to compress the images to improve performance
 
 
 ## Testing
@@ -170,6 +171,7 @@ In this section, you need to convince the assessor that you have conducted enoug
 
 * It was pointed out to me that the inr 'Why Us' subsection of Home the last icon reaches outside its container. This was not he case on my devices but after investigating using Chrom Dev Tools I noticed it happens when the height of the device is smaller. The bug was caused by setting the height to 100vh. Changing it to min-height: 100vh solved the problem. 
 * Some reviewers noticed that the navigation bar on mobile mode wouldn't collapse when an item was selected. This wasn't the best user experience as they would have to touch the hamburger menu button again to be able to fully see the site. This was fixed using JavaScript code.
+* It was suggested that I should compress my images for better performance which I did using [this tool](https://tinyjpg.com/).
 
 ## Deployment
 
