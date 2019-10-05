@@ -253,6 +253,7 @@ h1 {
 }
 
 /*----images for the cards----*/
+/*this will be applied for all the browsers but IE*/
 @supports not (-ms-high-contrast: none) {
     #professional>.flipCardRotate {
         background-image: url(../images/truck.jpg);
@@ -593,6 +594,10 @@ footer {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
+    }
+
+    #fAddress {
+        font-size: .7rem;
     }
 }
 
