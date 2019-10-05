@@ -130,7 +130,7 @@ h1 {
 #hero {
     padding-bottom: 5vh;
     margin-bottom: 0;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-blend-mode: overlay;
@@ -149,7 +149,7 @@ h1 {
 
 #whyUs {
 
-    height: 100vh;
+    min-height: 100vh;
     color: #f7eef7;
     font-weight: 800;
 }
@@ -539,7 +539,7 @@ footer {
 
     /*----styles for surgeries/companies---*/
     #surgeriesCompanies {
-        height: 100vh;
+        min-height: 100vh;
     }
 
     #surgeriesCompanies p {

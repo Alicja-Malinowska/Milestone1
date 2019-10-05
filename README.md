@@ -164,6 +164,11 @@ In this section, you need to convince the assessor that you have conducted enoug
 
 * The contrast between the background colours and the text colours should be sufficient for people with impaired ability to see colours
 
+#### Peer code review
+
+* It was pointed out to me that the inr 'Why Us' subsection of Home the last icon reaches outside its container. This was not he case on my devices but after investigating using Chrom Dev Tools I noticed it happens when the height of the device is smaller. The bug was caused by setting the height to 100vh. Changing it to min-height: 100vh solved the problem. 
+* Some reviewers noticed that the navigation bar on mobile mode wouldn't collapse when an item was selected. This wasn't the best user experience as they would have to touch the hamburger menu button again to be able to fully see the site. This was fixed using JavaScript code.
+
 ## Deployment
 
 The website has been deployed using GitHub Pages. To do this I opened 'Settings' in my Milestone1 repository and and under the 'GitHub pages' section I chose my master branch to be the publishing source. By doing this I received a shareable link (which is available in the beginning of this document) to my published site. 
@@ -185,4 +190,4 @@ Psychotest was a real company that I used to run and it had a website built in W
 
 ### Acknowledgements
 
-Thanks to my Mentor Simen Daehlin for suggesting to make it a one-page scrollable website and for giving me idea to display my contact form as a modal. 
+Thanks to my Mentor Simen Daehlin for suggesting to make it a one-page scrollable website and for giving me idea to display my contact form as a modal. Thanks to Anthony O'Brien for giving me a piece of JavaScript Code to provide better UX with the collapsable navigation bar on mobile devices. 
