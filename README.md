@@ -80,7 +80,7 @@ All the features were added to enhance the UX and make using the website easy to
 *	Fixed navigation bar – allows a user to navigate through the website quickly without the necessity to go back to the top of the page
 *	Flag buttons – allow a user to switch between Polish and English language
 *	Link to the reviews on the first page – allows a user to immediately be able to go to Google page and see the reviews (this opens in a new tab)
-*	Booking button on the first page – allows a user to immediately get in touch by filling out a contact form that comes up in the form of a modal, which keeps the user in the same location on the page rather than taking them right to the bottom of the page where the contact section is 
+*	Booking button on the first page – allows a user to immediately get in touch by filling out a contact form that comes up in the form of a modal, which keeps the user in the same location on the page rather than taking them right to the bottom of the page where the contact section is.
 *	An arrow button at the bottom of the landing view – informs a user that there is more content in the section and takes them to it when clicked
 *	Book now/More buttons on each service card – give every user an easy way to get in touch/quickly get to the section that describes the test, while being focussed only on the content that is of interest
 *	A phone number as a link/button – this allows users (mobile users in particular) to easily dial the number by just clicking/touching
@@ -88,7 +88,7 @@ All the features were added to enhance the UX and make using the website easy to
 *	Pricing categories with expandable details – allows a user to easily find information about prices without being overloaded with the description text and find out more details about the section that is of interest by clicking and expanding it
 *	An email address as a link/button – allows a user to immediately send an email by just clicking/touching it (this will open a new email window) – no need to copy and paste the address
 *	An embedded Google map – shows the location of the centre and allows a user to look for directions directly from the website
-*	A contact form – gives a user a third option (aside from calling or emailing) to get in touch
+*	A contact form – gives a user a third option (aside from calling or emailing) to get in touch. When submitted correctly it displays a success message.
 *	A Facebook icon button – send a user to the company’s FB page where they can see news/announcements
 * The landing page is English - this is because the page is created for educational purposes and most of the people using it (assessor, mentor, reviewing peers) are English speakers. In reality, the landing page would be in Polish as most of the users of the page would be Polish speakers.
 
@@ -125,7 +125,7 @@ All the features were added to enhance the UX and make using the website easy to
 
 * All the navigation links take a user to the assigned section.
 * When Polish flag is clicked, a Polish version is displayed. When British flag is clicked, an English version is displayed.
-* Book now button opens a modal with a contact form. When the sumit button is pressed on an empty form an error message appears. Similarly if any of the fields is empty (all are rquired) or when email address doesn't have a proper format (no @). The form in the Contact section behaves simiarly. When it is sumitted correctly, the modal closes. 
+* Book now button opens a modal with a contact form. When the sumit button is pressed on an empty form an error message appears. Similarly if any of the fields is empty (all are rquired) or when email address doesn't have a proper format (no @). The form in the Contact section behaves simiarly. When it is sumitted correctly, the modal closes.  
 * The reviews link opens in a new tab and takes a user to a Google page containing the reviews.
 * When the arrow-down icon is clicked on the homepage it takes a user to the further part of the section (similarly in What to Expect section).
 * More about button on the cards takes a user to What to Expect section where they can read more about the test
@@ -133,6 +133,7 @@ All the features were added to enhance the UX and make using the website easy to
 * When download icons are clicked/touched a file is being downloaded.
 * When arrows in the pricing sections are clicked they expand and reveal more details about the price category.
 * When the email address/icon is clicked/touched a new email message opens (or suggested apps to open it with - dependant on the individual user settings)
+* When the contact form in the 'Contact' section is completed and submitted correctly a success page appears. This was not implemented with the modal because it would defeat the whole purpose of the modal for UX.
 * When Facebook icon clicked/touched a new tab opens with the company's Facebook page.
 
 

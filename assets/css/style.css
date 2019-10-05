@@ -480,6 +480,21 @@ footer {
     box-shadow: 0 -5px 8px #888888;
 }
 
+/*---FORM SUCCESS MESSAGE---*/
+
+#successMessage {
+    margin-top: 20vh;
+}
+#successIcon {
+    color: #228019;
+}
+
+#successText {
+    font-size: 2rem;
+}
+
+
+
 /*----MEDIA----*/
 
 
