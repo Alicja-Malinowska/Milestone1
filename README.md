@@ -78,10 +78,11 @@ All the features were added to enhance the UX and make using the website easy to
  
 ### Existing Features
 *	Fixed navigation bar – allows a user to navigate through the website quickly without the necessity to go back to the top of the page
+* Logo - when clicked on takes a user tot he top of the page (this is a common practice so a user will expect to be able to to this)
 *	Flag buttons – allow a user to switch between Polish and English language
 *	Link to the reviews on the first page – allows a user to immediately be able to go to Google page and see the reviews (this opens in a new tab)
 *	Booking button on the first page – allows a user to immediately get in touch by filling out a contact form that comes up in the form of a modal, which keeps the user in the same location on the page rather than taking them right to the bottom of the page where the contact section is.
-*	An arrow button at the bottom of the landing view – informs a user that there is more content in the section and takes them to it when clicked
+*	An arrow button at the bottom of the landing view (and in the What to Expect section) – informs a user that there is more content in the section and takes them to it when clicked
 *	Book now/More buttons on each service card – give every user an easy way to get in touch/quickly get to the section that describes the test, while being focussed only on the content that is of interest
 *	A phone number as a link/button – this allows users (mobile users in particular) to easily dial the number by just clicking/touching
 *	Download icons – allow a user to download documents templates (depending on the language version the titles of the files are in English or Polish)
@@ -124,6 +125,7 @@ All the features were added to enhance the UX and make using the website easy to
 #### Features testing
 
 * All the navigation links take a user to the assigned section.
+* When the logo is clicked the page scrolls to the top.
 * When Polish flag is clicked, a Polish version is displayed. When British flag is clicked, an English version is displayed.
 * Book now button opens a modal with a contact form. When the sumit button is pressed on an empty form an error message appears. Similarly if any of the fields is empty (all are rquired) or when email address doesn't have a proper format (no @). The form in the Contact section behaves simiarly. When it is sumitted correctly, the modal closes.  
 * The reviews link opens in a new tab and takes a user to a Google page containing the reviews.
