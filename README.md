@@ -117,7 +117,7 @@ All the features were added to enhance the UX and make using the website easy to
 
 ### Automated testing
 
-* [W3 HTML validator](https://validator.w3.org/) was used on both html files. There was an error pointing to the same id's in the form in the contact section and the form in the modal. The id's' names in the modal have been changed. Another error was an illegal character ("|") in the link to Google Fonts (the link was generated from there). To fix this I removed the link from the head and added @import in the CSS file. Since there are two html files and one CSS file this is a better solution. 
+* [W3 HTML validator](https://validator.w3.org/) was used on both html files. There was an error pointing to the same id's in the form in the contact section and the form in the modal. The id's' names in the modal have been changed. Another error was an illegal character ("|") in the link to Google Fonts (the link was generated from there). To fix this I removed the link from the head and added @import in the CSS file. Since there are four html files and one CSS file this is a better solution. 
 
 * [W3 CSS validator](https://jigsaw.w3.org/css-validator/) was used to check the CSS file. No errors were found. 
 
@@ -144,13 +144,13 @@ All the features were added to enhance the UX and make using the website easy to
 
 * The website was tested and works properly on: Chrome v77, Chrome v77 on Android, Opera v63
 * On Firefox there was an issue with the flipcards on desktop - the cover of the card would still be visible when flipped. This was solved using a solution from [Stack Overflow](https://stackoverflow.com/questions/9604982/backface-visibility-not-working-properly-in-firefox-works-in-safari). After this fix the flipcards work properly on Firefox v69
-* On Edge there was an issue with the background-blend-mode which resulted in pictures on the flipcards not being 'dimmed' and text not being readable. To fix this I decided not to display the background pictures on the cards on Edge and I used the ides from the [fastcodefix](https://www.fastcodefix.com/fix-for-internet-explorer-and-edge-css-layout-problems/) website to do that. After this fix flipcard work properly on Microsoft Edge v44, but the images are not displayed. 
+* On Edge there was an issue with the background-blend-mode which resulted in pictures on the flipcards not being 'dimmed' and text not being readable. To fix this I decided not to display the background pictures on the cards on Edge and I used the idea from the [fastcodefix](https://www.fastcodefix.com/fix-for-internet-explorer-and-edge-css-layout-problems/) website to do that. After this fix flipcard work properly on Microsoft Edge v44, but the images are not displayed. 
 * On IE the flipcards didn't work properly at all so I decided to keep them static as they are on tablet and mobile. To do this I applied the solution I found on [Stack Overflow](https://stackoverflow.com/questions/48412244/apply-css-to-all-browsers-except-ie-using-media-query/48422293). After this fix the cards work properly on Internet Explorer v11, although they are not animated in the desktop view, they also do not have background images in any view. 
 * The flipcards do not work properly on Safari and Chrome on Mac - the content doesn't show when the card is flipped. Although I tried to fix this bug I could not find a good solution. As I work in Windows environment I did not have proper resources to investigate this further.
 
 #### Responsive design
 
-* The website was tested using Google Chrome Developer Tools to check how it looks like in case of different width and height by chooseing 'Responsive' option and resizing the window. Using Chrom Dev Tools, it was also tested how the website looks on: Galaxy S5, Pixel 2, Pixel 2XL, iPhone 5/6/7/8/X, iPad and iPad Pro. In all these views the website is responsive and shows content properly.
+* The website was tested using Google Chrome Developer Tools to check how it looks like in case of different width and height by choosing 'Responsive' option and resizing the window. Using Chrom Dev Tools, it was also tested how the website looks on: Galaxy S5, Pixel 2, Pixel 2XL, iPhone 5/6/7/8/X, iPad and iPad Pro. In all these views the website is responsive and shows content properly.
 * The website was also tested on the following devices: Samsung Galaxy A3, Asus laptop 15", Dell laptop 13.3", a 24" monitor. On all of this devices the website is responsive and shows content properly. 
 * On mobiles and tablets the navbar collapses into a 'hamburger menu' and can be expanded to reveal the items by clicking/touching it, on desktop it contains the visisble list of all the items
 * The pictures in the 'About' section are situated below/above the text description on mobile, while on bigger screens they are next to it.
@@ -169,7 +169,7 @@ In this section, you need to convince the assessor that you have conducted enoug
 
 #### Peer code review
 
-* It was pointed out to me that the inr 'Why Us' subsection of Home the last icon reaches outside its container. This was not he case on my devices but after investigating using Chrom Dev Tools I noticed it happens when the height of the device is smaller. The bug was caused by setting the height to 100vh. Changing it to min-height: 100vh solved the problem. 
+* It was pointed out to me that in the 'Why Us' subsection of Home the last icon reaches outside its container. This was not the case on my devices but after investigating using Chrom Dev Tools I noticed it happens when the height of the device is smaller. The bug was caused by setting the height to 100vh. Changing it to min-height: 100vh solved the problem. 
 * Some reviewers noticed that the navigation bar on mobile mode wouldn't collapse when an item was selected. This wasn't the best user experience as they would have to touch the hamburger menu button again to be able to fully see the site. This was fixed using JavaScript code.
 * It was suggested that I should compress my images for better performance which I did using [this tool](https://tinyjpg.com/).
 
@@ -184,7 +184,7 @@ It is possible to clone this repository and run it locally. To do that type `git
 ### Content
 The text was entirely written by me, both in Polish and English.
 
-Psychotest was a real company that I used to run and it had a website built in WordPress. The website does not exist anymore and I do not have access to it either. I used texts in Polish that I had saved in word files when I had been preparing the content for the website. I changed some content and added some new content. I translated everything to English. The layout of the webiste is different than the WordPress website, although the sections are similar. I no longer have the access to the WordPress page and I do not have any images of the old website, I only rely on my memory of it and I was not attempting to recreate it in terms of layout. 
+Psychotest was a real company that I used to run and it had a website built in WordPress. The website does not exist anymore and I do not have access to it either. I used texts in Polish that I had saved in word files when I had been preparing the content for the website. I changed some content and added some new content. I translated everything to English. The layout of the webiste is different than the WordPress website, although the sections are similar. I no longer have the access to the WordPress page and I do not have any images of the old website, I only rely on my memory of it and I was not attempting to recreate it in terms of layout and design.
 
 ### Media
 * The flag images, truck hero image and cards images come from [Pixabay](https://pixabay.com/)
