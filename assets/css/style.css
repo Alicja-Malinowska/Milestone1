@@ -483,14 +483,14 @@ footer {
 /*---FORM SUCCESS MESSAGE---*/
 
 #successMessage {
-    margin-top: 20vh;
+    margin-top: 10vw;
 }
 #successIcon {
     color: #228019;
 }
 
 #successText {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
