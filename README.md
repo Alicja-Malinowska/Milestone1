@@ -201,8 +201,10 @@ To clone this project from GitHub:
 4. In your local IDE open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 3.
-```git clone https://github.com/Alicja-Malinowska/Milestone1.git
-```
+
+  ```
+  git clone https://github.com/Alicja-Malinowska/Milestone1.git
+  ```
 7. Press Enter. Your local clone will be created.
 
 More about cloning can be found on this [GitHub Help page](https://help.github.com/en/articles/cloning-a-repository).
