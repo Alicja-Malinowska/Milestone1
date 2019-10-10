@@ -231,4 +231,4 @@ Psychotest was a real company that I used to run and it had a website built in W
 
 ### Acknowledgements
 
-Thanks to my Mentor Simen Daehlin for suggesting to make it a one-page scrollable website and for giving me idea to display my contact form as a modal. Thanks to Anthony O'Brien for giving me a piece of JavaScript Code to provide better UX with the collapsable navigation bar on mobile devices. 
+Thanks to my Mentor [Simen Daehlin](https://github.com/Eventyret) for suggesting to make it a one-page scrollable website and for giving me idea to display my contact form as a modal. Thanks to [Anthony O'Brien](https://github.com/auxfuse) for giving me a piece of JavaScript Code to provide better UX with the collapsable navigation bar on mobile devices. 
