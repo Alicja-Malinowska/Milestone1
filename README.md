@@ -58,7 +58,7 @@ There will also be a very small group of users interested in having the psycholo
 * As a user I want to have a navigation item that will take me to the about section so I can learn more about the company
 * As an English speaking individual client I want to have a button that switches the language to English so I can understand the information presented on the webiste
 
-The page navigation is designed to be intuitive and enable a user to find the information they look for quickly. The design offers a user multiple places from where they can get in touch and ask questions/book appointments as this is the most important purpose of the website (next to its informative function). The chosen iconography, typography, images and colours are meant to create an impression of a professional but also a friendly place. The logo of the company is in a shade of blue and other colours were chosen to match it, using an online tool https://mycolor.space/
+The page navigation is designed to be intuitive and enable a user to find the information they look for quickly. The design offers a user multiple places from where they can get in touch and ask questions/book appointments as this is the most important purpose of the website (next to its informative function). The chosen iconography, typography, images and colours are meant to create an impression of a professional but also a friendly place. The logo of the company is in a shade of blue and other colours were chosen to match it, using an online tool [Mycolor](https://mycolor.space/)
 
 The wirefreames can be found in my [GitHub repository](https://github.com/Alicja-Malinowska/Milestone1) in the assets folder. 
 
