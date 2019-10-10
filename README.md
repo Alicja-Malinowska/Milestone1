@@ -60,9 +60,18 @@ There will also be a very small group of users interested in having the psycholo
 
 The page navigation is designed to be intuitive and enable a user to find the information they look for quickly. The design offers a user multiple places from where they can get in touch and ask questions/book appointments as this is the most important purpose of the website (next to its informative function). The chosen iconography, typography, images and colours are meant to create an impression of a professional but also a friendly place. The logo of the company is in a shade of blue and other colours were chosen to match it, using an online tool [Mycolor](https://mycolor.space/)
 
-The wirefreames can be found in my [GitHub repository](https://github.com/Alicja-Malinowska/Milestone1) in the assets folder. 
 
-### Differences between wireframes and the website
+### Wireframes/mockups
+
+These are the mockups for the homepage:
+
+![mobile home](https://github.com/Alicja-Malinowska/Milestone1/blob/master/mockups/mobile-home-page.png)
+![tablet home](https://github.com/Alicja-Malinowska/Milestone1/blob/master/mockups/tablet-home.png)
+![desktop home](https://github.com/Alicja-Malinowska/Milestone1/blob/master/mockups/desktop-home.png)
+
+All the wireframes can be found in the [mockups folder](https://github.com/Alicja-Malinowska/Milestone1/tree/master/mockups).
+
+#### Differences between wireframes and the website
 
 * Wireframes were designed as a multi-page website, however after the discussion with my mentor this was changed to a single scrollable website 
 * The language buttons were moved from the content of the page to the navigation bar for better user experience on the scrollable website
