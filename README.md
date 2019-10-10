@@ -1,11 +1,10 @@
-# Psychological testing centre for drivers - PSYCHOTEST
+# Psychological testing centre for drivers - [PSYCHOTEST](https://alicja-malinowska.github.io/Milestone1/)
 
 
 This is a website for a testing centre, based in Poland, that provides psychological assessments for drivers (mainly), as well as other professions. The purpose of the webiste is to inform potential clients about the services that are provided and to convince them to choose PSYCHOTEST over the competition. 
 
 The website is available in two languages: Polish and English, so foreigners living and working in Poland are also able to learn about the services and the possibility to have the tests done in English. The website is dedicated mostly for individual clients, but it also contains information for GP surgeries and companies who would like to use the services for occupational medicine purposes. 
 
-The [deployed website](https://alicja-malinowska.github.io/Milestone1/). 
 
 #### External user’s goal:
 
