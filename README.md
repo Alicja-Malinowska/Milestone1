@@ -111,14 +111,11 @@ All the features were added to enhance the UX and make using the website easy to
 
 * HTML
 * CSS
-* [Bootstrap 4](https://getbootstrap.com/) - used for the responsive design, collapsable navbar, modals and collapsed text
-* [CSS Gradient](https://cssgradient.io/) - background gradient created using this website
-* [ColorSpace](https://mycolor.space/) - this tool was used to match the colors used on the webiste to the logo
-* [Autoprefixer](https://autoprefixer.github.io/) - used to add prefixes for the code to work on different browsers
+* jQuery
+* [Bootstrap](https://getbootstrap.com/) - used for the responsive design, collapsable navbar, modals and collapsed text
 * [Visual Studio Code](https://code.visualstudio.com/) - an IDE used to write the code
 * [Git](https://git-scm.com/) - used for version control
-* [GitHub](https://github.com/) - as a remote repository and hosting service for the live version
-* [Tiny JPG](https://tinyjpg.com/) - used to compress the images to improve performance
+* [Font Awesome](https://fontawesome.com/) - all the icons on the website 
 
 
 ## Testing
@@ -194,10 +191,16 @@ The text was entirely written by me, both in Polish and English.
 
 Psychotest was a real company that I used to run and it had a website built in WordPress. The website does not exist anymore and I do not have access to it either. I used texts in Polish that I had saved in word files when I had been preparing the content for the website. I changed some content and added some new content. I translated everything to English. The layout of the webiste is different than the WordPress website, although the sections are similar. I no longer have the access to the WordPress page and I do not have any images of the old website, I only rely on my memory of it and I was not attempting to recreate it in terms of layout and design.
 
+### Tools used
+
+* [CSS Gradient](https://cssgradient.io/) - background gradient created using this website
+* [ColorSpace](https://mycolor.space/) - this tool was used to match the colors used on the webiste to the logo
+* [Autoprefixer](https://autoprefixer.github.io/) - used to add prefixes for the code to work on different browsers
+* [Tiny JPG](https://tinyjpg.com/) - used to compress the images to improve performance
+
 ### Media
 * The flag images, truck hero image and cards images come from [Pixabay](https://pixabay.com/)
 * The images from the 'About' section are mine
-* All the icons were taken from [Font Awesome](https://fontawesome.com/) 
 * The fonts were imported from [Google Fonts](https://fonts.google.com/)
 
 ### Acknowledgements
