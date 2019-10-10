@@ -436,6 +436,15 @@ with the background photo---*/
     margin-top: 40px;
 }
 
+.fa-download {
+    font-size: 1.5rem;
+    color: #f7eef7;
+}
+
+.fa-download:hover {
+    color: #c2bcc2;
+}
+
 /*----PRICING----*/
 
 #categories h4 {
@@ -479,6 +488,11 @@ footer {
     background-color: #ffffff;
     -webkit-box-shadow: 0 -5px 8px #888888;
     box-shadow: 0 -5px 8px #888888;
+}
+
+.fa-lg {
+    text-shadow: none;
+    color: rgb(76, 87, 117);
 }
 
 /*---FORM SUCCESS MESSAGE---*/
@@ -549,11 +563,16 @@ footer {
     }
 
     #files {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     #download {
         padding-top: 50px;
+    }
+
+    .fa-download {
+        font-size: 2rem;
+        
     }
 
     /*----styles for pricing---*/
